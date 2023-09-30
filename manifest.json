@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "MoodLight",
+  "description": "MoodLight Chrome Extension to make your light moody",
+  "version": "1.0",
+  "permissions": ["activeTab", "storage", "webNavigation", "tabs"],
+  "action": {
+    "default_popup": "moodlight.html",
+    "default_icon": {
+      "16": "moodlight.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
+

@@ -1,6 +1,6 @@
 # MOODLIGHT CHROME EXTENSION
 
-## Communicate with Thingspeak on what you are working on and make your work smart!
+Communicate with Thingspeak on what you are working on and make your work smart!
 
 ## Setup for the chrome extension
 
